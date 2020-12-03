@@ -1,0 +1,30 @@
+package starter_project;
+
+type TimeRequest
+{
+	int32 request_id = 1;
+}
+
+type TimeResponse
+{
+	int32 request_id = 1;
+	int64 time = 2;
+}
+
+type TimeDilation
+{
+	uint32 tick = 1;
+}
+
+component ServerUpdate
+{
+    id = 101;
+    event TimeDilation time_dilation;
+    event TimeResponse time_response;
+}
+
+component ClientUpdate
+{
+    id = 102;
+    event TimeRequest time_request;
+}

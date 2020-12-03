@@ -1,0 +1,19 @@
+{
+    "name": "StarterProject.Client",
+    "references": [
+        "GUID:7ebd68514f5baab479b693a769d31398",
+        "GUID:edb3612c44ad0d24988d387581fd5fbe",
+        "GUID:2462d220cd70f6048a0706d191d5af74",
+        "GUID:09d0b0c8e43bd56409834b050a8a2ceb",
+        "GUID:734d92eba21c94caba915361bd5ac177"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
